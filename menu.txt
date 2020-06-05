@@ -1,0 +1,11 @@
+Soup and Rice
+Miso,Soy Bean Soup,$1.50
+Rice,Plain White Rice,$1.50
+Tonjiru,Beef and Vegetable with Soy Bean Soup,$5.99
+Seafood,,$5.99
+%
+Soup and Rice
+Miso,Soy Bean Soup,$1.50
+Rice,Plain White Rice,$1.50
+Tonjiru,Beef and Vegetable with Soy Bean Soup,$5.99
+Seafood,,$5.99
