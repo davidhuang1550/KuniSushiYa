@@ -1069,18 +1069,18 @@ var sashimiCombo = {
 			var x;
 			var y = 0;
 			str+= '<div class="row">';
-			str+= '<div class="col-xs-8">';
+			str+= '<div class="col-xs-6">';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;">Appetizer Price</h3>';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;padding-right:20px;">Combo Price</h3>';
 			str+= '</div>';
 			str+= '</div>';
 			for(x =0; x< arr.length; x++) {
 				str+= '<div class="row" style="padding-left:20px;padding-right:20px;margin-bottom:100px;">';
-				str+= '<div class="col-xs-8">';
+				str+= '<div class="col-xs-6">';
 				str+='<div class="article">'
 				str+= '<h2 style="color:white">'+arr[x].Name+'</h2>';
 				str+= '<span class="dots"></span>';
@@ -1088,12 +1088,12 @@ var sashimiCombo = {
 				var desc = (arr[x].Description !== undefined) ? arr[x].Description : '';
 				str+= '<h3 style="color:#949494;">'+desc +'</h3>';
 				str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['Appetizer Price'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['Appetizer Price'] +'</h2>';
 				}
 				str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['Combo Price'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['Combo Price'] +'</h2>';
 				}
@@ -1116,18 +1116,18 @@ var sashimiCombo = {
       var x;
       var y = 0;
 			str+= '<div class="row">';
-			str+= '<div class="col-xs-8">';
+			str+= '<div class="col-xs-6">';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;">Reg.</h3>';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;padding-right:20px;">Hand Roll</h3>';
 			str+= '</div>';
 			str+= '</div>';
       for(x =0; x< arr.length; x++) {
         str+= '<div class="row" style="padding-left:20px;padding-right:20px;margin-bottom:100px;">';
-        str+= '<div class="col-xs-8">';
+        str+= '<div class="col-xs-6">';
 				str+='<div class="article">'
         str+= '<h2 style="color:white">'+arr[x].Name+'</h2>';
         str+= '<span class="dots"></span>';
@@ -1135,12 +1135,12 @@ var sashimiCombo = {
         var desc = (arr[x].Description !== undefined) ? arr[x].Description : '';
         str+= '<h3 style="color:#949494;">'+desc +'</h3>';
         str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['Regular Price'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['Regular Price'] +'</h2>';
 				}
 				str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['Handroll Price'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['Handroll Price'] +'</h2>';
 				}
@@ -1163,18 +1163,18 @@ var sashimiCombo = {
 			var x;
 			var y = 0;
 			str+= '<div class="row">';
-			str+= '<div class="col-xs-8">';
+			str+= '<div class="col-xs-6">';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;">Sushi  Price for 2pcs.</h3>';
 			str+= '</div>';
-			str+= '<div class="col-xs-2">';
+			str+= '<div class="col-xs-3">';
 			str+= '<h3 style="color:white;text-align:center;padding-right:20px;">Sashimi Prices for 3 pcs</h3>';
 			str+= '</div>';
 			str+= '</div>';
 			for(x =0; x< arr.length; x++) {
 				str+= '<div class="row" style="padding-left:20px;padding-right:20px;margin-bottom:100px;">';
-				str+= '<div class="col-xs-8">';
+				str+= '<div class="col-xs-6">';
 				str+='<div class="article">'
 				str+= '<h2 style="color:white">'+arr[x].Name+'</h2>';
 				str+= '<span class="dots"></span>';
@@ -1182,12 +1182,12 @@ var sashimiCombo = {
 				var desc = (arr[x].Description !== undefined) ? arr[x].Description : '';
 				str+= '<h3 style="color:#949494;">'+desc +'</h3>';
 				str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['2piece'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['2piece'] +'</h2>';
 				}
 				str+= '</div>';
-				str+= '<div class="col-xs-2">';
+				str+= '<div class="col-xs-3">';
 				if(arr[x]['3piece'] !== undefined) {
 					str+= '<h2 style="color: #fee856;text-align:center;">'+ arr[x]['3piece'] +'</h2>';
 				}
